@@ -7,8 +7,9 @@
 |-----------------|-----|------|---------|-
 |GET|v1/users|-|Daftar seluruh object users|Untuk melihat seluruh data users|
 |GET|v1/users/:id|User ID|Data object user sesuai dengan ID user|Untuk melihat data sesuai dengan ID user|
-|POST|v1/users|user_id,name,email_address,username,date_of_birth,gander,location,membership_start_date,membership_end_date,subscription_plan,payment_information,renewal_status,usage_frequecy,purchase_history,favorites_ganres,devices_used,engagement_metrics,feedback_ratings,customer_support_interacions|Menyimpan object data user baru|Untuk menyimpan data user|
-|PUT|v1/users/:id|user_id|Mengdelete object data user|Untuk mengdelete data user|
+|POST|v1/users|data user|Menyimpan data object user|Untuk menyimpan data user|
+|PUT|v1/users|user_id dan data user|Mengupdate object data user|Untuk mengupdate data user|
+|DELETE|v1/users/:id|user_id|Mendelete object data user|Untuk mendelete data user|
 
 ### Header Authorization
 |Header|Value|Keterangan|
@@ -39,9 +40,9 @@ Jika api sesuai dengan permintaan
 	"message": "success",
 	"data":[
 		{
-			"user_id": 1
-			...
-			...
+		    "user_id": 1,
+            "name": "test",
+            "email_address": "test@testing"
 		}
 	]
 }

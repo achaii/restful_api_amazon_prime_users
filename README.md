@@ -21,16 +21,16 @@
 Jika api tidak menggunkan Authorization atau Authorization tidak sesuai dengan token
 ```JSON
 {
-	"error": 401,
-	"message": "Unauthorized"
+"error": 401,
+"message": "Unauthorized"
 }
 ```
 
 Jika api mengalami kesalahan
 ```JSON
 {
-	"error": 500,
-	"message": "Internal server error"
+"error": 500,
+"message": "Internal server error"
 }
 ```
 Jika api sesuai dengan permintaan

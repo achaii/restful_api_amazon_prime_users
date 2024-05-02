@@ -10,7 +10,7 @@ app.use(express.json());
 app.use('/', Users);
 
 app.listen(PORT, () => {
-    console.log(`Server is running ${HOST}:${POST}`);
+    console.log(`Server is running ${HOST}:${PORT}`);
 });
 
 module.exports = app;

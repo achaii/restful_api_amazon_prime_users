@@ -14,7 +14,7 @@ const UsersModel = {
         db.query('UPDATE amazon_prime_users SET ? WHERE user_id = ?', [user, id], callback);
     },
     delete_user: (id, callback) => {
-        db.query('DELETE amazon_prime_users WHERE user_id = ?', [id], callback);
+        db.query('DELETE FROM amazon_prime_users WHERE user_id = ?', [id], callback);
     }
 };
 

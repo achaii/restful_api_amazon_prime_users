@@ -57,7 +57,6 @@ const update_user = ((req, res) => {
 
 const delete_user = ((req, res) => {
     const id = req.params.id;
-
     Users.delete_user(id, (err, result) => {
         if (err) {
             res.status(500).json({status: 500, message: 'Internal server error'});

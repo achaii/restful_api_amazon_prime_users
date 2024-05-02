@@ -1,0 +1,23 @@
+{
+  "name": "restfull_api_top_100_songs_lyrics_by_year_1959_2023_usa",
+  "author": "achaii",
+  "license": "MIT",
+  "description": "Restfull Api top 100 songs lyric by year 1959 2023 USA",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "mysql": "^2.18.1",
+    "supertest": "^7.0.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  }
+}

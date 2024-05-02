@@ -40,9 +40,9 @@ Jika api sesuai dengan permintaan
     "message": "success",
     "data": [
         {
-"user_id": 1,
-"name": "test",
-"email_address": "test@testing"
+            "user_id": 1,
+            "name": "test",
+            "email_address": "test@testing"
         }
     ]
 }

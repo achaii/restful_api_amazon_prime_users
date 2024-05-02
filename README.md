@@ -92,24 +92,29 @@
     <tbody>
         <tr>
             <td>
+            ```JSON
                 {
                    "error": 401,
                    "message": "Unauthorized"
                 }
+            ```
             </td>
             <td>Jika api tidak menggunkan Authorization atau Authorization tidak sesuai dengan token</td>
         </tr>
         <tr>
             <td>
+            ```JSON
                 {
                     "error": 500,
                     "message": "Internal server error"
                 }
+            ```
             </td>
             <td>Jika api mengalami kesalahan</td>
         </tr>
         <tr>
             <td>
+            ```JSON
                 {
                     "error": false,
                     "message": "success",
@@ -121,6 +126,7 @@
                         }
                     ]
                 }
+            ```
             </td>
             <td>Jika api mengalami kesalahan</td>
         </tr>

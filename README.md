@@ -1,4 +1,4 @@
-# Restfull Api Amazone Prime Users
+# Restful Api Amazon Prime Users
 
 ## Base URL : http://localhost:3000
 

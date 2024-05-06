@@ -1,8 +1,8 @@
 const db = require('../config/db.config');
 
 const UsersModel = {
-    get_all_users: (callback) => {
-        db.query('SELECT * FROM amazon_prime_users', callback);
+    get_all_users: (limit, offset, callback) => {
+        db.query('SELECT * FROM amazon_prime_users LIMIT ? OFFSET ?', [limit, offset], callback);
     },
     get_users_by_id: (id, callback) => {
         db.query('SELECT * FROM amazon_prime_users WHERE user_id = ?', [id], callback);

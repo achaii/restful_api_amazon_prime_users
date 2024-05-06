@@ -1,7 +1,11 @@
 const Users = require('../services/users.service');
 
 const get_all_users = ((req, res) => {
-    Users.get_all_users((err, result) => {
+
+    const limit = parseInt(req.query.limit) || 10;
+    const offset = parseInt(req.query.offset) || 0; 
+
+    Users.get_all_users(limit, offset, (err, result) => {
         if (err) {
             res.status(500).json({status: 500, message: 'Internal server error'});
             return;

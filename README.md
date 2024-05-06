@@ -5,7 +5,7 @@
 ### Users Endpoint
 |HTTP Method|URL|Input|Output|Keterangan|
 |-----------------|-----|------|---------|-
-|GET|v1/users|-|Daftar seluruh object users|Untuk melihat seluruh data users|
+|GET|v1/users|query parameter limit = 10, offset = 10 by default|Daftar seluruh object users|Untuk melihat seluruh data users|
 |GET|v1/users/:id|User ID|Data object user sesuai dengan ID user|Untuk melihat data sesuai dengan ID user|
 |POST|v1/users|data user|Menyimpan data object user|Untuk menyimpan data user|
 |PUT|v1/users/:id|user_id dan data user|Mengupdate object data user|Untuk mengupdate data user|

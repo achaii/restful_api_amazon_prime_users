@@ -1,8 +1,8 @@
 {
-  "name": "restfull_api_top_100_songs_lyrics_by_year_1959_2023_usa",
+  "name": "restful_api_amazon_prime_users",
   "author": "achaii",
   "license": "MIT",
-  "description": "Restfull Api top 100 songs lyric by year 1959 2023 USA",
+  "description": "Resful Api Amazon Prime User",
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",

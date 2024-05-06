@@ -1,8 +1,8 @@
 const users = require('../models/users.model');
 
 const UsersService = {
-    get_all_users: (callback) => {
-        users.get_all_users(callback);
+    get_all_users: (limit, offset, callback) => {
+        users.get_all_users(limit, offset, callback);
     },
     get_user_by_id: (id, callback) => {
         users.get_users_by_id(id, callback);
